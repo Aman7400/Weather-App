@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.Main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.main-content{
+    background-image:url(/images/error2.jpg);
+    text-align: left;
+    /* object-fit: fill; */
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 750px;
+    font-family: 'Playfair Display', serif;
+        color:white;
+        text-shadow: 2px 2px 4px #000000;
+        font-size: 85px;
+        width: 500px;;
+}
+.content{
+    margin: 15px;
+    top: 150px;
+    position: relative;
+}
+.gif{
+    padding: 100px;
+}

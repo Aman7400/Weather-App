@@ -1,0 +1,116 @@
+body{
+  
+    margin: 0;
+} 
+#main-img{
+    
+    height:755px;
+    width: 100%;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+.main-content{
+    /* display: grid; */
+    /* grid-template-columns: auto auto; */
+    background-image:url(/images/others.jpg);
+    padding: 25px;
+text-align: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 375px;
+    width: 525px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 12px;
+        color:white;
+        text-shadow: 2px 2px 4px #000000;
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     }
+      .extra-details{
+          margin-top: 0;
+          text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        position: relative;
+        top:-20px;
+        /* left:25%; */
+        /* column-gap:  */
+        font-size: 25px;
+        color:white;
+        text-shadow: 2px 2px 4px #000000;
+       
+
+      }
+      .extra-details-items{
+          margin: 20px 10px;
+
+      }
+      .info{
+        
+            visibility: hidden;
+            width: 100px;
+            background-color: black;
+            color: #fff;
+          
+            border-radius: 6px;
+            padding: 5px 0;
+          
+        
+            position: absolute;
+          
+            
+            z-index: 1;
+            font-size: 10px;
+          
+      }
+
+        .extra-details-items:hover .info{
+       
+            visibility: visible;
+         
+      }
+        
+      
+      .main-h1{
+           /* float: right; */
+      
+      display: inline-block; 
+      }
+      #main-h1{
+        font-family: 'Playfair Display', serif;
+      }
+
+      #date-time{
+         margin-top: 0;
+         margin-bottom: 0;
+      }
+     
+      #temperature{
+          margin-top: 0;
+          
+          font-size: 75px;
+     
+          font-family: 'Times New Roman', Times, serif;
+
+      }
+      #feels{
+          position: relative;
+          top:-10px;
+          margin-top: 0;
+          font-size: 15px;
+          margin-bottom: 0;
+          
+      }
+     
+      .ok{
+          margin-top: 10px;
+          
+      }
+      #description{
+        font-family: 'Playfair Display', serif;
+        color:white;
+        text-shadow: 2px 2px 4px #000000;
+      }
